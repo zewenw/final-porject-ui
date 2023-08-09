@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 
 function Card({children, reverse}) {
-  console.log(children)
+  // console.log(children)
   return (
     <div className='card' style={{
       backgroundColor: reverse ? 'rgba(0,0,0,0.4)' : '#fff',
